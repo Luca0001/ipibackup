@@ -71,6 +71,26 @@ create a separate FAT32 partition for hosting the backup files. Restore can be
 done by taking the micro-SD card to a full computer running either iTunes or
 idevicebackup2.
 
+
+
+
+
+
+
+
+
+
+What if I mount an FTP disk image on a NAS instead?
+
+
+
+
+
+
+
+
+
+
 ```shell
 # echo "start=1G,type=c" |  sfdisk -a /dev/mmcblk0
 # mkfs.vfat -n PIBACKUP /dev/mmcblk0p3
